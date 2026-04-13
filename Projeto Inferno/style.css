@@ -1,0 +1,55 @@
+body{
+    font-size: 64px;
+    background: #100000;
+    color: #5b1e1e;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+}
+nav ul{
+    text-align: left;
+    margin: 0, 0, 0, 0;
+    font-size: 45px;
+    padding:0px;
+    margin: 10, 0, 0, 0;
+}
+footer{
+    font-size: 16px;
+}
+a:link{
+    color:#732929;
+    text-decoration: none;
+}
+a:visited{
+    color: #732929;
+}
+a:hover{
+    color:#853d3d;
+}
+header{
+    border-bottom: 5px double #5b1e1e;
+    background-image: url("AUTISM.jpg");
+    height: 270px;
+    margin: 0 auto;
+    text-align: bottom;
+}
+.layout-container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 250px;
+    background-color: #150000;
+    color: black;
+    padding: 10px;
+}
+.conteudo{
+    flex: 1;
+    padding: 20px;
+}
+section{
+    font-size:30px;
+}
